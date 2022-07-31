@@ -1,3 +1,4 @@
+set -x
 cp -r ../src/otel .
 cp ../src/run.sh layer.sh
 ./layer.sh "$@"
